@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antonio "Darius" | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Antonio, aka Darius, web development student."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/avatar.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="bg" aria-hidden="true">
+      <span class="blob b1"></span>
+      <span class="blob b2"></span>
+      <span class="grid"></span>
+    </div>
+
+    <nav class="nav">
+      <a href="#home" class="logo">~/darius<span class="blink">_</span></a>
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">// web development student</p>
+        <h1>Hi, I'm <span class="gradient">Antonio</span></h1>
+        <p class="aka">aka <strong>Darius</strong></p>
+        <p class="role">
+          I build <span id="typed" class="typed">web apps</span
+          ><span class="caret">|</span>
+        </p>
+        <p class="lead">
+          Student of Web Application Development (DAW2). I like clean code, fast
+          websites and understanding what happens under the hood.
+        </p>
+        <div class="cta">
+          <a href="#projects" class="btn btn-primary">See projects</a>
+          <a
+            href="https://github.com/KaDariusS"
+            class="btn btn-ghost"
+            target="_blank"
+            rel="noopener"
+            >GitHub ↗</a
+          >
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img
+          src="img/profile.png"
+          alt="Profile picture of Antonio"
+          class="avatar"
+        />
+        <div class="terminal">
+          <div class="term-bar"><i></i><i></i><i></i></div>
+          <pre><span class="p">$</span> whoami
+darius
+<span class="p">$</span> git log --oneline -1
+<span class="h">a1b2c3d</span> feat: launch portfolio</pre>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section reveal">
+        <h2><span class="num">01</span> About me</h2>
+        <p>
+          I'm studying web development and I enjoy both sides: building
+          interfaces people like to use and setting up the servers and tools
+          behind them.
+        </p>
+        <ul class="facts">
+          <li><span>studies</span> DAW2, Web Application Development</li>
+          <li><span>focus</span> Web development and systems</li>
+          <li><span>learning</span> Git, GitHub and deployments</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <h2><span class="num">02</span> Projects</h2>
+        <div class="cards">
+          <a
+            class="card"
+            href="https://github.com/KaDariusS/daw2-git-portfolio"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>daw2-git-portfolio</h3>
+            <p>
+              Git from the command line: commits, branches, merge conflicts,
+              stash, revert and tags.
+            </p>
+            <span class="stack">Git · HTML · CSS</span>
+          </a>
+          <a
+            class="card"
+            href="https://github.com/KaDariusS/KaDariusS.github.io"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>KaDariusS.github.io</h3>
+            <p>
+              This website. Personal portfolio deployed automatically with
+              GitHub Pages.
+            </p>
+            <span class="stack">HTML · CSS · JS · GitHub Pages</span>
+          </a>
+          <a
+            class="card"
+            href="https://github.com/KaDariusS/KaDariusS"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>Profile README</h3>
+            <p>My GitHub profile presentation with tech badges.</p>
+            <span class="stack">Markdown</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <h2><span class="num">03</span> Skills</h2>
+        <ul class="skills">
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>CSS3</li>
+          <li>HTML5</li>
+          <li>Git</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <h2><span class="num">04</span> Contact</h2>
+        <p class="big">Let's <span class="gradient">talk</span>.</p>
+        <p>Open to internships, projects and collaborations.</p>
+        <div class="cta">
+          <a href="mailto:dariussone22@gmail.com" class="btn btn-primary"
+            >Email me</a
+          >
+          <a
+            href="https://github.com/KaDariusS"
+            class="btn btn-ghost"
+            target="_blank"
+            rel="noopener"
+            >GitHub ↗</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        © 2026 Antonio "Darius" ·
+        <a href="https://github.com/KaDariusS">github.com/KaDariusS</a>
+      </p>
+    </footer>
+  </body>
+</html>
